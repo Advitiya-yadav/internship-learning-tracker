@@ -1,12 +1,29 @@
 # dependencies
 node_modules/
 
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# virtual environments
+venv/
+.venv/
+env/
+
+# fastapi / python env
+.python-version
+
 # next.js
 .next/
 out/
 
 # production
 build/
+dist/
 
 # env files
 .env
@@ -20,6 +37,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+*.log
 
 # macOS
 .DS_Store
@@ -32,6 +50,23 @@ Thumbs.db
 
 # coverage
 coverage/
+htmlcov/
 
 # typescript
 *.tsbuildinfo
+
+# testing
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# cache
+.cache/
+
+# idea
+.idea/
+
+# temporary
+tmp/
+temp/
